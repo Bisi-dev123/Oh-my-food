@@ -33,13 +33,15 @@ body {
   }
 
   .bastilleCard-cont {
-    width: 412px;
+    width: 413px;
     background-color: #f9f9f9;
     padding: 28px 16px;
     display: flex;
     flex-direction: column;
     row-gap: 28px;
     border-radius: 48px 48px 0 0;
+    position: absolute;
+    top: 240px;
   }
 
   .bastilleTitle-container {

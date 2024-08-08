@@ -30,16 +30,19 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    
   }
 
   .bastilleCard-cont {
-    width: 412px;
+    width: 413px;
     background-color: #f9f9f9;
     padding: 28px 16px;
     display: flex;
     flex-direction: column;
     row-gap: 28px;
     border-radius: 48px 48px 0 0;
+    position: absolute;
+    top: 240px;
   }
 
   .bastilleTitle-container {
@@ -96,6 +99,11 @@ body {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
+  }
+
+  .entreesCardOne :hover {
+    cursor: pointer;
+    /* background-color: #FF79DA; */
   }
 
   h2 {
